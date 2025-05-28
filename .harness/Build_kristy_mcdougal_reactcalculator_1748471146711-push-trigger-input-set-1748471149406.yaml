@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kristy_mcdougal_reactcalculator_1748471146711-push-trigger-input-set
+  identifier: Build_kristy_mcdougal_reactcalculator_1748471146711pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kristy_mcdougal_reactcalculator_1748471146711
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
