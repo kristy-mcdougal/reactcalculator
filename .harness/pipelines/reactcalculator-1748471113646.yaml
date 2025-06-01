@@ -39,4 +39,4 @@ pipeline:
             type: Docker
         type: CI
   delegateSelectors:
-    - helm-delegate
+    - docker-delegate
